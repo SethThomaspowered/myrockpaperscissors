@@ -7,13 +7,13 @@ public class Welcome {
         public static void main(String[] args) {
             Scanner scan = new Scanner(System.in);
 
-            System.out.println("mygame.Welcome to Rock, Paper. Scissors");
-            System.out.println("Would you like play Two Players or Against the Computer?");
+            System.out.println("Welcome to Rock, Paper. Scissors");
+            System.out.println("Would you like to play Against the Computer or another player? Type 1 for computer and 2 for two player");
             String opponent = scan.nextLine();
             System.out.println("You choose to play " + opponent + ".");
             System.out.println("What is player One's name?");
             String name1 = scan.nextLine();
-            if (opponent.equals("two")){
+            if (opponent.equals("2")){
                 System.out.println("What is player Two's name?");
                 String name2 = scan.nextLine();
             }
